@@ -1,0 +1,33 @@
+!.gitignore
+
+# Everything in local is ignored by default
+/*
+
+# Our survey module
+!/modules/
+!/modules/questionnaire.survey/
+!/modules/questionnaire.survey/**
+
+# Our Bitrix routes
+!/routes/
+!/routes/web.php
+
+# Dependencies
+modules/questionnaire.survey/vendor/
+modules/questionnaire.survey/vendor.backup/
+modules/questionnaire.survey/node_modules/
+modules/questionnaire.survey/frontend/node_modules/
+
+# Frontend build
+modules/questionnaire.survey/frontend/dist/
+
+# PHPUnit
+modules/questionnaire.survey/.phpunit.result.cache
+
+# Environment / secrets
+modules/questionnaire.survey/.env
+modules/questionnaire.survey/.env.*
+
+# IDE
+modules/questionnaire.survey/.idea/
+modules/questionnaire.survey/frontend/.idea/

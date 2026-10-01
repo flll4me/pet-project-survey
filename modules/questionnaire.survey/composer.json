@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Questionnaire\\Survey\\": "lib/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.10"
+    }
+}
